@@ -1,0 +1,49 @@
+/* General navbar styling */
+.navbar {
+    background-color: #009890;
+    background-size: cover;
+    background-position: center;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+    color: #fff; /* Default text color */
+}
+
+.brand {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif; /* Choose a font family */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds a subtle text shadow */
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif; /* Choose a font family */
+    transition: color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+}
+
+.menu:hover {
+    color: #ffcc00; /* Change color on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.logout {
+    color: #ff4c4c; /* Different color for logout */
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.logout:hover {
+    color: #ff0000; /* Change color on hover for logout */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}

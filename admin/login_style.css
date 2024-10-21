@@ -1,0 +1,61 @@
+/* General Body Styles */
+body.bg {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Form Container Styles */
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px); /* Adjust based on padding */
+}
+
+table {
+    border: 0;
+    background-color: #333;
+    color: #fff;
+    width: 40%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Title Style */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+/* Input Text Styles */
+.text {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #555;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Submit Button Styles */
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
